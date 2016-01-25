@@ -1,0 +1,22 @@
+{
+  "name": "smoketest",
+  "version": "1.0.0",
+  "description": "Smoke testing for hooking up db and express.js",
+  "main": "smoke.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "express",
+    "mysql"
+  ],
+  "author": "Mateusz Grotha",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0",
+    "express": "^4.13.4",
+    "mocha": "^2.3.4",
+    "mysql": "^2.10.2"
+  }
+}
