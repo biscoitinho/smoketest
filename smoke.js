@@ -2,8 +2,8 @@ var express    = require("express");
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
-  user     : 'root',
-  password : 'biszk0pt',
+  user     : 'user_name',
+  password : 'password',
   database : 'tweets'
 });
 var app = express();
